@@ -143,7 +143,7 @@ private fun ProfileInfoItem(
   //TODO add your code here
   val colors = MaterialTheme.colors
 
-  ConstraintLayout (modifier = Modifier) {
+  ConstraintLayout (modifier = modifier) {
     val (iconRef, amountRef, titleRef) = createRefs()
     val itemModifier = Modifier
 
